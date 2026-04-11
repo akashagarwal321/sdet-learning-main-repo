@@ -1,0 +1,31 @@
+
+#Installing Playwright
+
+#Creating a new venv inside playwright folder
+		python -m venv <environment folder name>
+		-> python -m venv .venv
+
+#Installing Playwright
+
+		->pip install playwright ------- installs playwright
+
+
+#Install Pytest and playwright python plugin
+
+		->pip install pytest
+		->pip install pytest-playwright	
+
+
+#Install Playwright browsers
+
+		->playwright install
+
+
+#Configure VScode to set testing as pytest
+
+		Ctrl+Shift+P 
+		OR 
+		in top editor: >Python: Configure tests
+
+#Pytest fixtures
+		1. 
